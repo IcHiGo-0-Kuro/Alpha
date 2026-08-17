@@ -2,7 +2,7 @@
   "name": "alpha",
   "version": "0.1.0",
   "private": true,
-  "description": "A production-ready Next.js application foundation with TypeScript and Supabase.",
+  "description": "Scheduled app access foundation with Next.js, TypeScript, and Supabase.",
   "license": "MIT",
   "engines": { "node": ">=20.9.0" },
   "scripts": {
@@ -19,6 +19,7 @@
     "clean": "rm -rf .next coverage"
   },
   "dependencies": {
+    "@js-temporal/polyfill": "^0.5.1",
     "@supabase/ssr": "^0.7.0",
     "@supabase/supabase-js": "^2.57.0",
     "next": "^16.2.11",
