@@ -1,0 +1,8 @@
+# Files containing generated/SQL/native-boundary prose or large UI code that should be formatted by their respective tooling.
+supabase/migrations/*.sql
+docs/native-android.md
+src/components/dashboard.tsx
+src/lib/schedule-engine.ts
+src/lib/platform/*.ts
+src/lib/types.ts
+tests/schedule-engine.test.ts
